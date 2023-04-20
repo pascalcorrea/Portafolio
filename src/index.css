@@ -1,13 +1,398 @@
-body {
+/* general */
+
+html {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Roboto", Sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 2rem;
+}
+
+section ul {
+  list-style: none;
+}
+
+section li:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+/* home */
+
+section#home {
+  background-color: #3AAFA9;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.home-h2 {
+    color: #DEF2F1;
+    font-size: 35px;
+    margin: 0px;
+}
+
+.logo-img {
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+.a-button:hover {
+  color: white;
+}
+
+.home-button {
+  height: 60px;
+  margin-top: 40px;
+  padding: 15px;
+  font-size: 20px;
+  border: none;
+  border-radius: 15px;
+  background-color: #17252A;
+  color: white;
+}
+
+.home-button:hover {
+  background-color: #2B7A78;
+  color: white;
+}
+
+
+
+/* header */
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #11181b;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  margin: 0;
+  padding: 15px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);  
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 20px;
+}
+
+.a-header {
+  color: #3AAFA9;
+  text-decoration: none;
+  font-size: 1.4rem;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.a-header:hover {
+  color: white;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+.a-button {
+  color: white;
+  text-decoration: none;
+}
+
+/* sobre mi */
+
+#about {
+  background-color: #DEF2F1;
+  padding: 2%;
+}
+
+
+
+.titulo-h2 {
+  margin: 20px 10px 50px 10px;
+  font-size: 50px;
+  color: #2B7A78;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foto-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+}
+
+.foto-img {
+  width: 320px;
+}
+
+/**/
+
+.skills {
+  display: grid;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.logo-leng {
+  width: 100px;
+  margin: 20px;
+}
+
+.leng-container {
+  margin: 5%;
+}
+
+.h2-skills {
+  margin-bottom: 30px;
+}
+
+.h2-habilidades {
+  font-size: 25px;
+}
+
+.h2-sobre-mi {
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.p-sobre-mi {
+  font-size: 18px;
+  text-align: center;
+}
+
+.d-grid {
+  justify-items: center;
+}
+
+.container-pilares {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  justify-content: center;
+  align-items: start;
+  margin: 80px 0 50px 0;
+}
+
+.pilares {
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+}
+
+.row-pilares {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 80px 0 80px 0;
+}
+
+.pilares img {
+  max-width: 100%;
+  height: 120px;
+  width: 120px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 0px 5px #abd2d1;
+  background-color: #2b7a78;
+}
+
+.pilares h2 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.pilares p {
+  font-size: 16px;
+  margin: 0;
+}
+
+/* proyectos */
+
+#projects {
+  background-color: #3AAFA9;
+}
+
+.section-title {
+  margin: 100px 10px 50px 10px;
+  font-size: 50px;
+  color: #17252A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 3%;
+}
+
+.project {
+  background-color: #fff;
+  border: 4px solid #ddd;
+  border-radius: 20px;
+  border-color: #17252A;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 25px;
+  width: 320px;
+}
+
+.project-image {
+  display: block;
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+  transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+}
+
+.project-image:hover {
+  transform: scale(1.05);
+  opacity: 0.8;
+}
+
+.project-details {
+  padding: 20px;
+  display: grid;
+  text-align: center;
+  background-color: #17252A;
+}
+
+.project-title {
+  margin-top: 0;
+  color: #3AAFA9;
+}
+
+.project-description {
+  margin-bottom: 20px;
+  color: #DEF2F1;
+}
+
+/* contacto */
+
+#contact {
+  background-color: #17252A;
+  display: grid;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.contact-titulo {
+  margin: 20px 10px 5px 10px;
+  font-size: 50px;
+  color: #3AAFA9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-contact {
+  color: white;
+  margin: 10px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form {
+  width: 100%;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.2rem;
+  color: #3AAFA9;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-button {
+  width: 100%;
+  background-color: #3AAFA9;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2B7A78;
+}
+
+/* footer */
+
+.footer-section {
+  background-color: #2B7A78;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-p {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  header {
+    padding: 10px 0 10px 0;
+  }
+  .logo-img {
+    width: 200px;
+  }
+  .home-h2 {
+    font-size: 26px;
+  }
+  .home-button {
+    height: 50px;
+    font-size: 15px;
+  }
+  .a-header {
+    font-size: 14px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  nav ul {
+    padding: 5px;
+  }
+  #about, #projects, #home {
+    padding: 5px;
+  }
 }
