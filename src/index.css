@@ -138,6 +138,12 @@ nav ul {
 
 .foto-img {
   width: 320px;
+  margin-bottom: 30px;
+  transition: 0.5 all;
+}
+
+.foto-img:hover {
+  transform: scale(1.2);
 }
 
 /**/
@@ -152,6 +158,11 @@ nav ul {
 .logo-leng {
   width: 100px;
   margin: 20px;
+  transition: 0.5 all;
+}
+
+.logo-leng:hover {
+  transform: scale(1.5);
 }
 
 .leng-container {

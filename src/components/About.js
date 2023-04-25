@@ -44,35 +44,32 @@ function About() {
       </div>
 
       <div className="container">
-  <div className="row row-pilares">
-    <div className="col pilares">
-      <img src={Funcional} alt="" className="pilar-img" />
-      <h2>Funcional</h2>
-      <p>Paginas 100% funcionales a las necesidades del cliente</p>
-    </div>
+        <div className="row row-pilares">
+          <div className="col pilares">
+            <img src={Funcional} alt="" className="pilar-img" />
+            <h2>Funcional</h2>
+            <p>Paginas 100% funcionales a las necesidades del cliente</p>
+          </div>
 
-    <div className="col pilares">
-      <img src={Responsive} alt="" className="pilar-img" />
-      <h2>Responsive</h2>
-      <p>Proyectos adaptables a cualquier tipo de dispositivo</p>
-    </div>
+          <div className="col pilares">
+            <img src={Responsive} alt="" className="pilar-img" />
+            <h2>Responsive</h2>
+            <p>Proyectos adaptables a cualquier tipo de dispositivo</p>
+          </div>
 
-    <div className="col pilares">
-      <img src={Intuitivo} alt="" className="pilar-img" />
-      <h2>Intuitivo</h2>
-      <p>Diseños innovadores y fáciles de navegar</p>
-    </div>
+          <div className="col pilares">
+            <img src={Intuitivo} alt="" className="pilar-img" />
+            <h2>Intuitivo</h2>
+            <p>Diseños innovadores y fáciles de navegar</p>
+          </div>
 
-    <div className="col pilares">
-      <img src={Rapido} alt="" className="pilar-img" />
-      <h2>Rápido</h2>
-      <p>Busco trabajar de forma rápida y eficiente</p>
-    </div>
-  </div>
-</div>
-
-
-
+          <div className="col pilares">
+            <img src={Rapido} alt="" className="pilar-img" />
+            <h2>Rápido</h2>
+            <p>Busco trabajar de forma rápida y eficiente</p>
+          </div>
+        </div>
+      </div>
     </section>
   );
 }
