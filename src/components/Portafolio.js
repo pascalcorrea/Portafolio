@@ -15,12 +15,14 @@ function Portfolio() {
     <section id="projects">
       <h2 className="section-title">/proyectos</h2>
       <section className="project-container">
-        
         <div className="project col-lg-4 col-md-6 col-sm-12">
           <img src={Proyecto5} alt="Proyecto 1" className="project-image" />
           <div className="project-details">
             <div>
-              <a className="git" href="-	https://github.com/pascalcorrea/Backend-Ecommerce ">
+              <a
+                className="git"
+                href="-	https://github.com/pascalcorrea/Backend-Ecommerce "
+              >
                 <BsGithub
                   style={{ margin: "0 0 10 0" }}
                   color="#3AAFA9"
@@ -37,7 +39,7 @@ function Portfolio() {
             </div>
             <h3 className="project-title">E-Commerce</h3>
             <p className="project-description">
-            E-Commerce de venta de Vaporizadores 
+              E-Commerce de venta de Vaporizadores
             </p>
             <div>
               <IoLogoJavascript
@@ -55,30 +57,19 @@ function Portfolio() {
                 color="#DEF2F1"
                 size={32}
               />
-              <SiReact 
-                style={{ padding: "1.5px" }} 
-                color="#DEF2F1" 
-                size={32} 
+              <SiReact style={{ padding: "1.5px" }} color="#DEF2F1" size={32} />
+              <FaNodeJs
+                style={{ padding: "1.5px" }}
+                color="#DEF2F1"
+                size={32}
               />
-              <FaNodeJs 
-                style={{ padding: "1.5px" }} 
-                color="#DEF2F1" 
-                size={32} />
               <SiBootstrap
                 style={{ padding: "1.5px" }}
                 color="#DEF2F1"
                 size={32}
               />
-              <SiMongodb
-                style={{ padding: "2px" }}
-                color="#DEF2F1"
-                size={32}
-              />
-              <SiExpress
-                style={{ padding: "2px" }}
-                color="#DEF2F1"
-                size={32}
-              />
+              <SiMongodb style={{ padding: "2px" }} color="#DEF2F1" size={32} />
+              <SiExpress style={{ padding: "2px" }} color="#DEF2F1" size={32} />
             </div>
           </div>
         </div>
@@ -87,14 +78,17 @@ function Portfolio() {
           <img src={Proyecto4} alt="Proyecto 1" className="project-image" />
           <div className="project-details">
             <div>
-              <a className="git" href="https://github.com/pascalcorrea/restaurant-app">
+              <a
+                className="git"
+                href="https://github.com/pascalcorrea/restaurant-app"
+              >
                 <BsGithub
                   style={{ margin: "0 0 10 0" }}
                   color="#3AAFA9"
                   size={25}
                 />
               </a>
-              <a href="https://tu-enlace">
+              <a href="https://harmonious-kelpie-259776.netlify.app/carta">
                 <BsLink45Deg
                   style={{ margin: "0 0 10 20" }}
                   color="#3AAFA9"
@@ -104,7 +98,7 @@ function Portfolio() {
             </div>
             <h3 className="project-title">Restaurant App</h3>
             <p className="project-description">
-            Pagina de restaurante de hamburguesas
+              Pagina de restaurante de hamburguesas
             </p>
             <div>
               <IoLogoJavascript
@@ -122,15 +116,8 @@ function Portfolio() {
                 color="#DEF2F1"
                 size={40}
               />
-              <SiReact 
-                style={{ padding: "5px" }} 
-                color="#DEF2F1" 
-                size={40} 
-              />
-              <FaNodeJs 
-                style={{ padding: "5px" }} 
-                color="#DEF2F1" 
-                size={40} />
+              <SiReact style={{ padding: "5px" }} color="#DEF2F1" size={40} />
+              <FaNodeJs style={{ padding: "5px" }} color="#DEF2F1" size={40} />
               <SiBootstrap
                 style={{ padding: "5px" }}
                 color="#DEF2F1"
@@ -144,7 +131,10 @@ function Portfolio() {
           <img src={Proyecto3} alt="Proyecto 1" className="project-image" />
           <div className="project-details">
             <div>
-              <a className="git" href="https://github.com/pascalcorrea/Dashboard">
+              <a
+                className="git"
+                href="https://github.com/pascalcorrea/Dashboard"
+              >
                 <BsGithub
                   style={{ margin: "0 0 10 0" }}
                   color="#3AAFA9"
@@ -161,7 +151,7 @@ function Portfolio() {
             </div>
             <h3 className="project-title">Dashboard Divisas</h3>
             <p className="project-description">
-            Dashboard de divisas extrayendo datos de una API
+              Dashboard de divisas extrayendo datos de una API
             </p>
             <div>
               <IoLogoJavascript
@@ -179,10 +169,7 @@ function Portfolio() {
                 color="#DEF2F1"
                 size={40}
               />
-              <FaNodeJs 
-                style={{ padding: "5px" }} 
-                color="#DEF2F1" 
-                size={40} />
+              <FaNodeJs style={{ padding: "5px" }} color="#DEF2F1" size={40} />
             </div>
           </div>
         </div>
@@ -191,7 +178,10 @@ function Portfolio() {
           <img src={Proyecto6} alt="Proyecto 1" className="project-image" />
           <div className="project-details">
             <div>
-              <a className="git" href="https://github.com/pascalcorrea/Portafolio">
+              <a
+                className="git"
+                href="https://github.com/pascalcorrea/Portafolio"
+              >
                 <BsGithub
                   style={{ margin: "0 0 10 0" }}
                   color="#3AAFA9"
@@ -208,7 +198,7 @@ function Portfolio() {
             </div>
             <h3 className="project-title">Portafolio</h3>
             <p className="project-description">
-            Portafolio de proyectos y presentación laboral 
+              Portafolio de proyectos y presentación laboral
             </p>
             <div>
               <IoLogoJavascript
@@ -226,10 +216,7 @@ function Portfolio() {
                 color="#DEF2F1"
                 size={40}
               />
-              <FaNodeJs 
-                style={{ padding: "5px" }} 
-                color="#DEF2F1" 
-                size={40} />
+              <FaNodeJs style={{ padding: "5px" }} color="#DEF2F1" size={40} />
               <SiBootstrap
                 style={{ padding: "5px" }}
                 color="#DEF2F1"
@@ -243,7 +230,10 @@ function Portfolio() {
           <img src={Proyecto2} alt="Proyecto 1" className="project-image" />
           <div className="project-details">
             <div>
-              <a className="git" href="https://github.com/pascalcorrea/appcrud.github.io">
+              <a
+                className="git"
+                href="https://github.com/pascalcorrea/appcrud.github.io"
+              >
                 <BsGithub
                   style={{ margin: "0 0 10 0" }}
                   color="#3AAFA9"
@@ -260,7 +250,7 @@ function Portfolio() {
             </div>
             <h3 className="project-title">CRUD App</h3>
             <p className="project-description">
-            CRUD de inscripción a torneo de pádel
+              CRUD de inscripción a torneo de pádel
             </p>
             <div>
               <IoLogoJavascript
@@ -303,7 +293,7 @@ function Portfolio() {
             </div>
             <h3 className="project-title">Landing Page</h3>
             <p className="project-description">
-            Landing Page para E-Commerce de Vaporizadores
+              Landing Page para E-Commerce de Vaporizadores
             </p>
             <div>
               <IoLogoHtml5
@@ -319,7 +309,6 @@ function Portfolio() {
             </div>
           </div>
         </div>
-
       </section>
     </section>
   );
