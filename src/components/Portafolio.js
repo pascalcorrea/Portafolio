@@ -94,7 +94,7 @@ function Portfolio() {
                   size={25}
                 />
               </a>
-              <a href="https://tu-enlace">
+              <a href="https://harmonious-kelpie-259776.netlify.app/carta">
                 <BsLink45Deg
                   style={{ margin: "0 0 10 20" }}
                   color="#3AAFA9"
