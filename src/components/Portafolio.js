@@ -21,7 +21,7 @@ function Portfolio() {
             <div>
               <a
                 className="git"
-                href="-	https://github.com/pascalcorrea/Backend-Ecommerce "
+                href="https://github.com/pascalcorrea/Backend-Ecommerce"
               >
                 <BsGithub
                   style={{ margin: "0 0 10 0" }}
@@ -29,7 +29,7 @@ function Portfolio() {
                   size={25}
                 />
               </a>
-              <a href="-	https://master--sparkling-froyo-949e50.netlify.app/ ">
+              <a href="https://sparkling-froyo-949e50.netlify.app/">
                 <BsLink45Deg
                   style={{ margin: "0 0 10 20" }}
                   color="#3AAFA9"
@@ -188,7 +188,7 @@ function Portfolio() {
                   size={25}
                 />
               </a>
-              <a href="https://tu-enlace">
+              <a href="https://tiny-panda-a031fb.netlify.app/">
                 <BsLink45Deg
                   style={{ margin: "0 0 10 20" }}
                   color="#3AAFA9"
@@ -276,14 +276,17 @@ function Portfolio() {
           <img src={Proyecto1} alt="Proyecto 1" className="project-image" />
           <div className="project-details">
             <div>
-              <a className="git" href="https://github.com/tu-repositorio">
+              <a
+                className="git"
+                href="https://github.com/pascalcorrea/Portafolio"
+              >
                 <BsGithub
                   style={{ margin: "0 0 10 0" }}
                   color="#3AAFA9"
                   size={25}
                 />
               </a>
-              <a href="https://tu-enlace">
+              <a href="https://tiny-panda-a031fb.netlify.app/#home">
                 <BsLink45Deg
                   style={{ margin: "0 0 10 20" }}
                   color="#3AAFA9"
