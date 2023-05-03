@@ -4,11 +4,7 @@ Portafolio de proyectos y presentacion laboral.
 
 ## Tecnologias
 
-Nodejs<br>
-JavaScript <br>
-CSS <br>
-HTML
-Boostrap
+JavaScript - CSS - HTML - Boostrap
 
 ### Links
 
