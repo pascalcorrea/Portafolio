@@ -17,4 +17,4 @@ Repositorio: https://github.com/pascalcorrea/Portafolio
 
 #### Fotos de proyecto 
 
-![master--sparkling-froyo-949e50 netlify app_](https://user-images.githubusercontent.com/98128852/234151331-1a44f5d1-ed3b-40c0-93e8-327c8cdf3acd.png)
+![tiny-panda-a031fb netlify app_](https://user-images.githubusercontent.com/98128852/236027057-2c1e68fe-4409-4488-8fdb-f08da1f93c82.png)
